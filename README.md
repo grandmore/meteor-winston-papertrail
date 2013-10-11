@@ -31,7 +31,7 @@ Don't forget to change PORT to the port number provided to you by PapertailApp.c
 if(Meteor.isServer) {
   
   //creating a global server logger
-  log =  Winston;
+  log = Winston;
   
   log.add( Winston_Papertrail, {
   	levels: {
@@ -62,11 +62,9 @@ if(Meteor.isServer) {
   });
 }
 ```
-
 You can paste this at the bottom of the logging.js code to test that it is working correctly.
+
 ``` js
 log.info(" =====> Meteor App restarted "+ new Date( Date.now()) +" <=====");
 ```
-
-
 See winston-papertrail [documentation](https://github.com/stuartfenton/meteor-winston-papertrail) for more details.
