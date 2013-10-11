@@ -39,15 +39,13 @@ if(Meteor.isServer) {
   		info: 1,
   		warn: 2,
   		error: 3,
-  		records: 4,
-  		auth: 5
+  		auth: 4
   	},
   	colors: {
   		debug: 'blue',
   		info: 'green',
   		warn: 'red',
   		error: 'red',
-  		records: 'blue',
   		auth: 'red'
   	},
   
