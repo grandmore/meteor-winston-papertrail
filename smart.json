@@ -3,7 +3,7 @@
   "description": "Papertrail transport for Winston logging library, packaged for Meteor",
   "homepage": "https://github.com/stuartfenton/meteor-winston-papertrail",
   "author": "Stuart Fenton <start@overlima.com>",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "git": "https://github.com/stuartfenton/meteor-winston-papertrail.git",
   "packages": {
   }
