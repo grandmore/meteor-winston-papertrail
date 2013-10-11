@@ -63,4 +63,10 @@ if(Meteor.isServer) {
 }
 ```
 
+You can paste this at the bottom of the logging.js code to test that it is working correctly.
+``` js
+log.info(" =====> Meteor App restarted "+ new Date( Date.now()) +" <=====");
+```
+
+
 See winston-papertrail [documentation](https://github.com/stuartfenton/meteor-winston-papertrail) for more details.
